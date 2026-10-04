@@ -39,68 +39,77 @@
         06118 Halle (Saale)<br>
         Deutschland<br>
         E-Mail: <a href="mailto:hallo@heimat-card.de">hallo@heimat-card.de</a><br>
-        Telefon: <a href="tel:+491629794020">0162 9794020</a>
+        Telefon: <a href="tel:+491629794020">0162 9794020</a><br>
       </address>
 
       <h2>2. Allgemeines</h2>
-      <p>Wir verarbeiten personenbezogene Daten nur, soweit dies für den Betrieb der HEIMATCard-App, die Durchführung der Mitgliedschaft, die Zahlungsabwicklung, den Support sowie die Erfüllung gesetzlicher Pflichten erforderlich ist. Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. b DSGVO (Vertrag und vorvertragliche Maßnahmen), Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtungen) und, soweit einschlägig, Art. 6 Abs. 1 lit. f DSGVO (berechtigte Interessen).</p>
+      <p>Wir verarbeiten personenbezogene Daten nur, soweit dies für den Betrieb der HEIMATCard-App, die Durchführung der Mitgliedschaft, die Zahlungsabwicklung, den Support sowie die Erfüllung gesetzlicher Pflichten erforderlich ist. Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO (Vertrag und vorvertragliche Maßnahmen), Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtungen) und, soweit einschlägig, Art. 6 Abs. 1 lit. f DSGVO (berechtigte Interessen).</p>
 
       <h2>3. Registrierung und Benutzerkonto</h2>
       <p>Für Registrierung, Anmeldung und Kontoverwaltung nutzen wir Supabase Auth. Dabei werden insbesondere die E-Mail-Adresse, Authentifizierungs- und Sitzungsdaten sowie technisch erforderliche Verbindungsdaten verarbeitet. Die Verarbeitung dient der Einrichtung und sicheren Verwaltung des Benutzerkontos sowie der Authentifizierung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
 
       <h2>4. Profil-, Bestandskunden- und Mitgliedschaftsdaten</h2>
-      <p>Je nach Nutzung verarbeiten wir Anrede, Vor- und Nachname, Anschrift, Postleitzahl, Ort und Geburtsjahr. Zusätzlich speichern wir Daten zur HEIMATCard-Mitgliedschaft, insbesondere Mitgliedsnummer, Status, Beginn und Gültigkeitsende sowie gegebenenfalls die Nummer einer bereits ausgegebenen physischen HEIMATCard. Für die Übernahme bestehender Kundenverhältnisse können vorhandene Kundendaten aus dem bisherigen HEIMATCard-Bestand in das System importiert werden. Die Verarbeitung dient der Identifizierung, der Feststellung einer bereits aktiv bezahlten Mitgliedschaft und ihrer Zuordnung zu einem App-Konto. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
+      <p>Je nach Nutzung verarbeiten wir Anrede, Vor- und Nachname, Anschrift, Postleitzahl, Ort und Geburtsjahr. Zusätzlich speichern wir Daten zur HEIMATCard-Mitgliedschaft, insbesondere Mitgliedsnummer, Status, Beginn und Gültigkeitsende sowie gegebenenfalls die Nummer einer bereits ausgegebenen physischen HEIMATCard. Für die Übernahme bestehender Kundenverhältnisse können vorhandene Kundendaten aus dem bisherigen HEIMATCard-Bestand in das System importiert werden. Die Verarbeitung dient der Identifizierung, der Feststellung einer bereits bestehenden Mitgliedschaft und ihrer Zuordnung zu einem App-Konto. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
 
       <h2>5. Aktivierung bestehender physischer HEIMATCards</h2>
       <p>Wird eine bereits bestehende physische HEIMATCard mit einem App-Konto verknüpft, verarbeiten wir die zur Identifikation und Zuordnung erforderlichen Karten-, Stamm- und Aktivierungsdaten. Dies dient der Prüfung der Berechtigung und der sicheren Verknüpfung der vorhandenen Mitgliedschaft mit dem Benutzerkonto. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
 
-      <h2>6. Käufe, Vertragsnachweis und Zahlungsabwicklung</h2>
-      <p>Bei einem Kauf speichern wir kaufbezogene Informationen wie Kaufzeitpunkt, Betrag, Währung, Gültigkeitszeitraum, Zahlungsstatus, Kaufquelle und technische Referenznummern des Zahlungsvorgangs. Zusätzlich speichern wir die zum Kaufzeitpunkt geltenden Versionskennungen der AGB und der Widerrufsbelehrung sowie den Zeitpunkt, zu dem die AGB akzeptiert und die Widerrufsbelehrung zur Kenntnis genommen wurde. Dies dient dem Abschluss, der Durchführung und dem Nachweis des Vertrags.</p>
-      <p>Für die Zahlungsabwicklung nutzen wir Stripe. Zahlungsdaten werden im Stripe-Zahlungsprozess verarbeitet; in unserer Datenbank speichern wir insbesondere Stripe-Referenzkennungen und keine vollständigen Kartendaten. Stripe kann zur Zahlungsabwicklung und Betrugsprävention unter anderem Kontakt-, Zahlungs-, Transaktions-, Geräte- und Verbindungsdaten verarbeiten und Daten an beteiligte Banken oder Zahlungsdienstleister übermitteln. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Aufbewahrung und Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
+      <h2>6. Aktivierungscodes und B2B-Mitgliedschaften</h2>
+      <p>Wenn bei der Registrierung ein optionaler Aktivierungscode verwendet wird, verarbeiten wir den eingegebenen Code zur Berechtigungsprüfung. Der Code wird serverseitig normalisiert und nur in gehashter Form gespeichert. Zur sicheren Zuordnung einer noch nicht abgeschlossenen Registrierung wird zusätzlich ein Hash der eingegebenen E-Mail-Adresse mit einer zeitlich befristeten Reservierung des Codes verknüpft. Nach Bestätigung der E-Mail-Adresse und erfolgreichem Login wird die Reservierung eingelöst und mit dem Benutzerkonto, der erzeugten oder verlängerten Mitgliedschaft, dem Einlösezeitpunkt und dem gewährten Gültigkeitszeitraum verknüpft. Je nach Aktion können außerdem Angaben zur ausgebenden Organisation oder Kampagne hinterlegt sein. Die Verarbeitung dient der Prüfung und Durchführung der über den Aktivierungscode bereitgestellten Mitgliedschaft. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
 
-      <h2>7. Angebote</h2>
+      <h2>7. Käufe, Vertragsnachweis und Zahlungsabwicklung</h2>
+      <p>Bei einem Kauf speichern wir kaufbezogene Informationen wie Kaufzeitpunkt, Betrag, Währung, Gültigkeitszeitraum, Zahlungsstatus, Kaufquelle und technische Referenznummern des Zahlungsvorgangs. Zusätzlich speichern wir die zum Kaufzeitpunkt geltenden Versionskennungen der AGB und der Widerrufsbelehrung sowie den Zeitpunkt, zu dem die AGB akzeptiert und die Widerrufsbelehrung zur Kenntnis genommen wurde. Dies dient dem Abschluss, der Durchführung und dem Nachweis des Vertrags. Für die Zahlungsabwicklung nutzen wir Stripe. Zahlungsdaten werden im Stripe-Zahlungsprozess verarbeitet; in unserer Datenbank speichern wir insbesondere Stripe-Referenzkennungen und keine vollständigen Kartendaten. Stripe kann zur Zahlungsabwicklung und Betrugsprävention unter anderem Kontakt-, Zahlungs-, Transaktions-, Geräte- und Verbindungsdaten verarbeiten und Daten an beteiligte Banken oder Zahlungsdienstleister übermitteln. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Aufbewahrung und Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
+
+      <h2>8. Angebote</h2>
       <p>In der App können allgemeine und partnerbezogene Angebote für eingeloggte Nutzer abgerufen werden. Hierzu werden der Anmeldestatus und, soweit für die Einlösung erforderlich, der aktuelle Mitgliedschaftsstatus verarbeitet. Angebotsbilder und Angebotsdaten werden online über Supabase bereitgestellt. Eine Gutschein-, Download- oder Entwertungsfunktion ist derzeit nicht Bestandteil der App. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
 
-      <h2>8. Lokale Speicherung und Offline-Nutzung</h2>
-      <p>Zur schnelleren Anzeige und zur eingeschränkten Offline-Nutzung speichert die App bestimmte Daten lokal auf dem verwendeten Gerät. Hierzu können Partnerdaten, Partnerbilder und der zuletzt online bestätigte Mitgliedschaftsstatus gehören. Die lokale Speicherung dient der Funktionsfähigkeit, der Reduzierung unnötiger Datenübertragungen und der Bereitstellung zuvor geladener Inhalte ohne Verbindung. Angebotsdaten werden nicht dauerhaft für eine Offline-Anzeige gespeichert. Lokal gespeicherte Inhalte werden bei Aktualisierungen bereinigt oder ersetzt und können durch Löschen der App vom Gerät entfernt werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b und, soweit einschlägig, lit. f DSGVO.</p>
+      <h2>9. Lokale Speicherung und Offline-Nutzung</h2>
+      <p>Zur schnelleren Anzeige und zur eingeschränkten Offline-Nutzung speichert die App bestimmte Daten lokal auf dem verwendeten Gerät. Hierzu können Partnerdaten, Partnerbilder, Rechtstexte und der zuletzt online bestätigte Mitgliedschaftsstatus gehören. Die lokale Speicherung dient der Funktionsfähigkeit, der Reduzierung unnötiger Datenübertragungen und der Bereitstellung zuvor geladener Inhalte ohne Verbindung. Angebotsdaten werden nicht dauerhaft für eine Offline-Anzeige gespeichert. Lokal gespeicherte Inhalte werden bei Aktualisierungen bereinigt oder ersetzt und können durch Löschen der App vom Gerät entfernt werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b und, soweit einschlägig, lit. f DSGVO.</p>
 
-      <h2>9. Widerruf und Rückerstattungen</h2>
-      <p>Bei einem Widerruf oder einer Rückerstattung verarbeiten wir den betroffenen Kauf, Zeitpunkt und Status des Widerrufs beziehungsweise der Rückerstattung sowie Stripe-Referenzkennungen. Dies ist erforderlich, um die Rückzahlung abzuwickeln und die zugehörige HEIMATCard-Laufzeit korrekt anzupassen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
+      <h2>10. Widerruf und Rückerstattungen</h2>
+      <p>Bei einem Widerruf oder einer Rückerstattung verarbeiten wir den betroffenen Kauf, Zeitpunkt und Status des Widerrufs bzw. der Rückerstattung sowie Stripe-Referenzkennungen. Dies ist erforderlich, um die Rückzahlung abzuwickeln und die zugehörige HEIMATCard-Laufzeit korrekt anzupassen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO; gesetzlich erforderliche Nachweise können zusätzlich auf Art. 6 Abs. 1 lit. c DSGVO beruhen.</p>
 
-      <h2>10. Support</h2>
+      <h2>11. Support</h2>
       <p>Wenn Sie den Support über die App kontaktieren, verarbeiten wir insbesondere Ihre E-Mail-Adresse, Betreff, Nachricht, Bearbeitungsstatus und gegebenenfalls die Zuordnung zu Ihrem Benutzerkonto. Die Daten werden zur Bearbeitung Ihrer Anfrage verarbeitet. Rechtsgrundlage ist je nach Inhalt Art. 6 Abs. 1 lit. b oder lit. f DSGVO.</p>
 
-      <h2>11. Transaktions- und Support-E-Mails</h2>
+      <h2>12. Transaktions- und Support-E-Mails</h2>
       <p>Für den Versand von Kauf-, Erstattungs- und Supportbenachrichtigungen nutzen wir den E-Mail-Versanddienst Resend. Hierbei werden insbesondere Empfängeradresse, Nachrichteninhalt, Versandart, Versandstatus und technische Zustellinformationen verarbeitet. Transaktionsbezogene E-Mails werden über hierfür eingerichtete HEIMATCard-Absenderadressen versendet; die allgemeine Kontaktadresse des Verantwortlichen bleibt hallo@heimat-card.de. Rechtsgrundlage ist je nach Nachricht Art. 6 Abs. 1 lit. b oder lit. f DSGVO. Resend kann zur Bereitstellung seiner Dienste Unterauftragsverarbeiter einsetzen.</p>
 
-      <h2>12. Karten- und Standortfunktion</h2>
+      <h2>13. Newsletter</h2>
+      <p>Wenn Sie den HEIMATCard-Newsletter abonnieren, speichern wir insbesondere den Abonnementstatus, den Zeitpunkt der Einwilligung bzw. des Widerrufs, die Quelle der Einwilligung (z. B. Registrierung, Kauf oder Kontoeinstellungen) und die verwendete Einwilligungsversion. Die Anmeldung ist freiwillig und hat keinen Einfluss auf die Nutzung der App oder die Mitgliedschaft. Rechtsgrundlage ist Art. 6 Abs. 1 lit. a DSGVO. Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft in den Kontoeinstellungen oder über eine bereitgestellte Abmeldemöglichkeit widerrufen.</p>
+
+      <h2>14. Push-Benachrichtigungen</h2>
+      <p>Wenn Sie Push-Benachrichtigungen aktivieren, verarbeiten wir für die Zustellung insbesondere eine appbezogene Installationskennung, den Expo Push Token, die Geräteplattform, den Aktivierungsstatus sowie technische Versand-, Ticket- und Zustellinformationen. Für die technische Zustellung nutzen wir den Expo Push Service; die weitere Auslieferung erfolgt abhängig vom Gerät über Apple Push Notification Service (APNs) oder Firebase Cloud Messaging (FCM). Die Nutzung von Push-Benachrichtigungen ist freiwillig. Rechtsgrundlage ist Art. 6 Abs. 1 lit. a DSGVO. Sie können Push-Benachrichtigungen in der App deaktivieren und zusätzlich die Berechtigung in den Systemeinstellungen Ihres Geräts entziehen.</p>
+
+      <h2>15. Karten- und Standortfunktion</h2>
       <p>Die Kartenansicht stellt Partnerstandorte mit MapLibre dar. Die Kartenkacheln werden von OpenFreeMap bereitgestellt und beruhen auf Kartendaten von OpenStreetMap. Beim Laden der Karte können insbesondere IP-Adresse, Geräteinformationen und der dargestellte Kartenausschnitt an OpenFreeMap übermittelt werden. Ihre aktuelle Position wird nur nach Ihrer ausdrücklichen Freigabe während der App-Nutzung abgefragt, ausschließlich auf Ihrem Gerät zur Anzeige und Entfernungsberechnung verwendet und nicht in unserem Benutzerkonto oder unserer Datenbank gespeichert. Die Standortfreigabe ist freiwillig; die Partnerliste bleibt auch ohne sie nutzbar. Rechtsgrundlage für die Standortverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Die Berechtigung kann jederzeit in den Geräteeinstellungen widerrufen werden.</p>
 
-      <h2>13. Kontolöschung</h2>
-      <p>Bei einer beantragten Kontolöschung verarbeiten wir den Löschwunsch und gegebenenfalls den vorgesehenen Löschzeitpunkt. Bei einer endgültigen Löschung werden personenbezogene Kontodaten gelöscht oder, soweit Daten aufgrund gesetzlicher Aufbewahrungspflichten weiter gespeichert werden müssen, von der aktiven Kontonutzung getrennt beziehungsweise soweit möglich anonymisiert. Gesetzliche Aufbewahrungspflichten, insbesondere für steuer- und handelsrechtlich relevante Transaktions- und Vertragsnachweisdaten, bleiben unberührt.</p>
+      <h2>16. Kontolöschung</h2>
+      <p>Bei einer beantragten Kontolöschung verarbeiten wir den Löschwunsch und gegebenenfalls den vorgesehenen Löschzeitpunkt. Bei einer endgültigen Löschung werden personenbezogene Kontodaten gelöscht oder, soweit Daten aufgrund gesetzlicher Aufbewahrungspflichten weiter gespeichert werden müssen, von der aktiven Kontonutzung getrennt bzw. soweit möglich anonymisiert. Gesetzliche Aufbewahrungspflichten, insbesondere für steuer- und handelsrechtlich relevante Transaktions- und Vertragsnachweisdaten, bleiben unberührt.</p>
 
-      <h2>14. Supabase</h2>
+      <h2>17. Supabase</h2>
       <p>Wir nutzen Supabase für Datenbank, Authentifizierung, Dateispeicherung und serverseitige Funktionen. Das HEIMATCard-Projekt ist in der Region EU Central (Frankfurt, eu-central-1) eingerichtet. Die primären Projektdaten werden damit in dieser Region gespeichert. Anbieter ist Supabase, Inc. Supabase kann zur Bereitstellung seiner Dienste Unterauftragsverarbeiter einsetzen. Grundlage der Auftragsverarbeitung ist der mit Supabase geltende Data Processing Addendum (DPA).</p>
 
-      <h2>15. Stripe</h2>
+      <h2>18. Stripe</h2>
       <p>Für Zahlungen nutzen wir Dienste von Stripe. Für Nutzer im Europäischen Wirtschaftsraum sind insbesondere europäische Stripe-Gesellschaften an der Verarbeitung beteiligt. Stripe verarbeitet Daten teilweise als unser Auftragsverarbeiter und für bestimmte regulatorische, Sicherheits- und Zahlungszwecke in eigener datenschutzrechtlicher Verantwortlichkeit. Weitere Informationen stellt Stripe in seiner Datenschutzrichtlinie und im Privacy Center bereit.</p>
 
-      <h2>16. Empfänger und Drittlandübermittlungen</h2>
-      <p>Personenbezogene Daten erhalten nur Stellen, die sie für die genannten Zwecke benötigen. Hierzu können insbesondere Supabase, Stripe, Resend, OpenFreeMap für die Bereitstellung der Kartenansicht sowie an einer Zahlung beteiligte Banken und Zahlungsdienstleister gehören. Soweit Dienstleister Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, erfolgt dies nur unter Beachtung der gesetzlichen Voraussetzungen für internationale Datenübermittlungen, insbesondere auf Grundlage geeigneter Garantien oder eines anwendbaren Angemessenheitsmechanismus.</p>
+      <h2>19. Empfänger und Drittlandübermittlungen</h2>
+      <p>Personenbezogene Daten erhalten nur Stellen, die sie für die genannten Zwecke benötigen. Hierzu können insbesondere Supabase, Stripe, Resend, Expo sowie Apple bzw. Google für Push-Benachrichtigungen, OpenFreeMap für die Bereitstellung der Kartenansicht sowie an einer Zahlung beteiligte Banken und Zahlungsdienstleister gehören. Soweit Dienstleister Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, erfolgt dies nur unter Beachtung der gesetzlichen Voraussetzungen für internationale Datenübermittlungen, insbesondere auf Grundlage geeigneter Garantien oder eines anwendbaren Angemessenheitsmechanismus.</p>
 
-      <h2>17. Speicherdauer</h2>
-      <p>Wir speichern personenbezogene Daten grundsätzlich nur so lange, wie dies für den jeweiligen Zweck erforderlich ist. Konto- und Mitgliedschaftsdaten werden grundsätzlich für die Dauer des Vertrags- beziehungsweise Benutzerkontoverhältnisses verarbeitet. Kauf-, Vertragsnachweis- und Abrechnungsdaten können aufgrund gesetzlicher handels- und steuerrechtlicher Aufbewahrungspflichten länger gespeichert werden. Support- und E-Mail-Versanddaten werden gelöscht, sobald sie für Bearbeitung, Zustellung und etwaige Nachweiszwecke nicht mehr erforderlich sind, sofern keine gesetzlichen Pflichten entgegenstehen.</p>
+      <h2>20. Speicherdauer</h2>
+      <p>Wir speichern personenbezogene Daten grundsätzlich nur so lange, wie dies für den jeweiligen Zweck erforderlich ist. Konto- und Mitgliedschaftsdaten werden grundsätzlich für die Dauer des Vertrags- bzw. Benutzerkontoverhältnisses verarbeitet. Nicht eingelöste Reservierungen von Aktivierungscodes werden zeitlich befristet vorgehalten. Kauf-, Vertragsnachweis- und Abrechnungsdaten können aufgrund gesetzlicher handels- und steuerrechtlicher Aufbewahrungspflichten länger gespeichert werden. Support-, Newsletter-, Push- und E-Mail-Versanddaten werden gelöscht oder deaktiviert, sobald sie für den jeweiligen Zweck und etwaige Nachweiszwecke nicht mehr erforderlich sind, sofern keine gesetzlichen Pflichten entgegenstehen.</p>
 
-      <h2>18. Ihre Rechte</h2>
+      <h2>21. Ihre Rechte</h2>
       <p>Sie haben nach Maßgabe der gesetzlichen Voraussetzungen insbesondere das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Soweit eine Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht, können Sie aus Gründen, die sich aus Ihrer besonderen Situation ergeben, Widerspruch einlegen. Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen.</p>
 
-      <h2>19. Beschwerderecht</h2>
+      <h2>22. Beschwerderecht</h2>
       <p>Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Zuständig ist insbesondere die Datenschutzaufsichtsbehörde des Bundeslandes, in dem der Verantwortliche seinen Sitz hat; Sie können sich grundsätzlich auch an eine andere für Sie zuständige Aufsichtsbehörde wenden.</p>
 
-      <h2>20. Änderungen</h2>
-      <p>Wir passen diese Datenschutzhinweise an, wenn sich die App, eingesetzte Dienste oder rechtliche Anforderungen ändern. Es gilt die jeweils in der App und auf dieser Seite bereitgestellte Fassung.</p>
+      <h2>23. Änderungen</h2>
+      <p>Wir passen diese Datenschutzhinweise an, wenn sich die App, eingesetzte Dienste oder rechtliche Anforderungen ändern. Es gilt die jeweils in der App bereitgestellte Fassung.</p>
+      <p>Stand: 2. Oktober 2026</p>
 
-      <footer>Stand: 5. September 2026</footer>
+      <footer>Stand: 2. Oktober 2026</footer>
     </article>
   </main>
 </body>
