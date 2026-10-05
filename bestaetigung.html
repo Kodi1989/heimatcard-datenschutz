@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; connect-src https://blxuozjyzxhguzchclmn.supabase.co; base-uri 'none'; form-action 'none'">
+<title>E-Mail bestätigen – HEIMATCard</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#14262D;color:white;font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px}
+main{width:min(560px,100%);padding:clamp(26px,6vw,48px);border:1px solid #ffffff26;border-radius:24px;background:#ffffff08}
+.brand{font-size:26px;font-weight:700;letter-spacing:.02em;color:#D6E2D2;margin:0 0 32px}h1{font-size:clamp(25px,5vw,32px);line-height:1.25;margin:0 0 20px}p{margin:0 0 24px;color:#e0e7e2}
+button,.button{display:inline-block;border:0;border-radius:12px;background:#D6E2D2;color:#14262D;padding:14px 20px;font:700 16px/1.4 inherit;cursor:pointer;text-decoration:none}
+button:disabled{opacity:.65;cursor:wait}[hidden]{display:none!important}a{color:#D6E2D2}a:focus-visible,button:focus-visible{outline:3px solid white;outline-offset:5px}
+footer{margin-top:36px;padding-top:22px;border-top:1px solid #ffffff26;font-size:14px;display:flex;gap:20px;flex-wrap:wrap}noscript p{background:#D6E2D2;color:#14262D;padding:16px;border-radius:12px}
+</style>
+<script src="./bestaetigung.js" defer></script>
+</head>
+<body>
+<main>
+<p class="brand">HEIMATCard</p>
+<section aria-live="polite" aria-atomic="true">
+<h1 id="title">Bestätige deine E-Mail-Adresse</h1>
+<p id="message">Klicke auf den Button, um die E-Mail-Adresse für dein HEIMATCard-Konto zu bestätigen. Anschließend kannst du dich in der App anmelden.</p>
+</section>
+<button id="confirm" type="button" hidden>E-Mail-Adresse bestätigen</button>
+<a id="app" class="button" href="heimatcard://login" hidden>HEIMATCard-App öffnen</a>
+<noscript><p>Bitte aktiviere JavaScript in deinem Browser, um deine E-Mail-Adresse zu bestätigen. Bei Fragen hilft dir unser Support.</p></noscript>
+<footer><a href="./support.html">Hilfe &amp; Support</a><a href="./">Datenschutzhinweise</a></footer>
+</main>
+</body>
+</html>
